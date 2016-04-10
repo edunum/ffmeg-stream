@@ -112,8 +112,8 @@ ffmpeg -re -loglevel error -i "G:/tmp/Test.mp4" -codec:v copy -codec:a copy -f f
 pause
 ```
 
-Ключ | Что означает
----  | ---------
+Ключ               | Что означает
+-----------------  | ---------
 `-codec:v libx264` | видеокодек
 `-preset ultrafast` | предустановки кодека
 `-profile:v main` | профиль кодека
